@@ -148,8 +148,8 @@ For more information, visit the [UV Documentation](https://docs.astral.sh/uv/).
 
 | CONTRIBUTORS | MENTORS | CONTENT WRITER |
 | :------:| :-----:| :-----: |
-| [Name] | [Soham Roy] | [Name] |
-| [Name] | [Yash Kumar Gupta] | |
+| [Name] | Soham Roy | [Name] |
+| [Name] | Yash Kumar Gupta | |
 
 ## Version
 | Version | Date | Comments |
