@@ -182,3 +182,26 @@ For more information, visit the [UV Documentation](https://docs.astral.sh/uv/).
 - FFmpeg - https://ffmpeg.org/
 - UV - https://docs.astral.sh/uv/
 
+## Project References
+
+### 1. Large Language Models (LLMs) & Transformers
+
+* [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/) - A visual, beginner-friendly introduction to transformer architecture.
+* [Attention Is All You Need](https://arxiv.org/abs/1706.03762) - The seminal paper on transformer architecture.
+---
+### 2. Multi-Agent Systems  
+  * [Introduction to Multi-Agent Systems](https://www.geeksforgeeks.org/what-is-a-multi-agent-system-in-ai/) - Fundamental concepts and principles.
+  * [ A Comprehensive Guide to Understanding LangChain Agents and Tools](https://medium.com/@piyushkashyap045/a-comprehensive-guide-to-understanding-langchain-agents-and-tools-43a187414f4c) - Practical implementation guide.
+  
+### 2. Image Generation & Processing
+* [Stable Diffusion: A Comprehensive End-to-End Guide with Examples](https://medium.com/@jagadeesan.ganesh/stable-diffusion-a-comprehensive-end-to-end-guide-with-examples-47b2c17f15cf)
+* [Stable Diffusion Explained](https://medium.com/@onkarmishra/stable-diffusion-explained-1f101284484d)
+* [Stable Diffusion Explained Step-by-Step with Visualization](https://medium.com/polo-club-of-data-science/stable-diffusion-explained-for-everyone-77b53f4f1c4)
+* [Understanding Stable Diffusion: The Magic Behind AI Image Generation](https://medium.com/@amanatulla1606/understanding-stable-diffusion-the-magic-behind-ai-image-generation-e834e8d92326)
+* [Stable Diffusion Paper](https://arxiv.org/pdf/2403.03206)
+
+---
+### 3. RAG
+* [Retrieval Augmented Generation](https://aiplanet.com/learn/llm-bootcamp/module-13/2380/retrieval-augmented-generation)
+
+---
