@@ -6,7 +6,7 @@
 </a>
 
 ## 🚧Our Project:
-Our project focuses on creating an automated video generation system using AI. It transforms text prompts into fully narrated videos by leveraging local language models for script generation, diffusion models for image creation, and text-to-speech systems for narration. The system processes inputs through multiple stages, from script generation to final video assembly, creating cohesive, engaging content automatically.
+Our project focuses on creating an automated video generation system using AI. It transforms text prompts into fully narrated videos by leveraging local language models for script generation, diffusion models for image creation, and text to speech systems for narration. The system processes inputs through multiple stages, from script generation to final video assembly, creating cohesive, engaging content automatically.
 
 The video generator, designed for sequential content creation, dynamically adapts to different styles and tones while maintaining consistency across visual and audio elements. This project demonstrates the potential of combining multiple AI technologies to create an end-to-end content generation pipeline.
 
@@ -18,6 +18,29 @@ The video generator, designed for sequential content creation, dynamically adapt
    `Transformers`: For running local language models for script generation
    
    `Diffusers`: For local image generation using diffusion models
+
+   ### Example: Generating Text with Transformers
+   Hugging Face's Transformers library is employed for text generation. Here's an example of generating text using a pre-trained GPT model:
+   ```python
+   from transformers import pipeline
+   
+   text_generator = pipeline("text-generation", model="gpt2")
+   script = text_generator("Once upon a time in a forest,", max_length=50)
+   print(script[0]['generated_text'])
+   ```
+
+   ### Example: Generating Images with Diffusers
+   Diffusion models are used for creating high-quality images based on text prompts. Below is an example of generating an image:
+   ```python
+   from diffusers import StableDiffusionPipeline
+
+   pipe = StableDiffusionPipeline.from_pretrained("runwayml/stable-diffusion-v1-5")
+   pipe = pipe.to("cuda")
+
+   prompt = "A futuristic cityscape at sunset"
+   image = pipe(prompt).images[0]
+   image.save("generated_image.png")
+   ```
 
 - **Audio Processing:**
     
@@ -62,7 +85,7 @@ The video generator, designed for sequential content creation, dynamically adapt
 
 ## Overview
 
-The AI Video Generator project represents a comprehensive exploration of modern AI technologies. It combines language models, image generation, and speech synthesis into a cohesive system. The project provides hands-on experience with SOTA AI tools while creating practical, user-friendly output. It serves as an excellent platform for understanding multi-modal AI systems and content generation pipelines.
+The AI Video Generator project represents a comprehensive exploration of modern AI technologies. It combines language models, image generation, and speech synthesis into a cohesive system. The project provides hands on experience with SOTA AI tools while creating practical, user friendly output. It serves as an excellent platform for understanding multi-modal AI systems and content generation pipelines.
 
 ## Running locally
 
@@ -125,8 +148,8 @@ For more information, visit the [UV Documentation](https://docs.astral.sh/uv/).
 
 | CONTRIBUTORS | MENTORS | CONTENT WRITER |
 | :------:| :-----:| :-----: |
-| [Name] | [Name] | [Name] |
-| [Name] | | |
+| [Name] | [Soham Roy] | [Name] |
+| [Name] | [Yash Kumar Gupta] | |
 
 ## Version
 | Version | Date | Comments |
