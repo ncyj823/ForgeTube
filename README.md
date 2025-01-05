@@ -1,5 +1,5 @@
 # MLSA Project Wing: ML
-![MLSA Logo](https://avatars.githubusercontent.com/u/79008924?s=280&v=4) <!--add the MLSA logo
+![MLSA Logo](https://avatars.githubusercontent.com/u/79008924?s=280&v=4) 
 
 <a>
   <h1 align="center"> ForgeTube </h1>
