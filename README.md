@@ -1,4 +1,4 @@
-# ForgeTube: MLSA Project Wing ML
+MLSA Project Wing ML
 ![MLSA Logo]() <!--add the MLSA logo
 
 <a>
